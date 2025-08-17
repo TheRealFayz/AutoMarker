@@ -1656,8 +1656,8 @@ addToDefaultNpcsToMark(L["Ruins of Ahn'Qiraj"], "ossirian_room", {
 addToDefaultNpcsToMark(L["Blackwing Lair"], "bwl_razor", {
   ["0xF1300030930149A4"] = STAR, -- razorgore
   ["0xF13000310D0149A5"] = SKULL, -- grethok
-  ["0xF1300038780149A7"] = UNMARKED,
-  ["0xF1300038780149A6"] = UNMARKED,
+  ["0xF1300038780149A7"] = CROSS,
+  ["0xF1300038780149A6"] = SQUARE,
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "vael", {
@@ -2579,5 +2579,6 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
