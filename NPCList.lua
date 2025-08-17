@@ -1837,10 +1837,10 @@ addToDefaultNpcsToMark(L["Blackwing Lair"], "lab7", {
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrmguard2", {
-  ["0xF1300030AC014A9B"] = SKULL,
+  ["0xF1300030AC014A9B"] = DIAMOND,
   ["0xF1300030AC014A9A"] = TRIANGLE,
   ["0xF1300030AC014A94"] = SQUARE,
-  ["0xF130003841014A93"] = DIAMOND,
+  ["0xF130003841014A93"] = SKULL,
   ["0xF130002ECD014F17"] = CIRCLE, -- flamegor
   ["0xF130003909014F14"] = STAR, -- ebonroc
 })
@@ -2579,6 +2579,7 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
 
