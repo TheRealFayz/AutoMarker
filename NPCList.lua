@@ -1310,6 +1310,7 @@ addToDefaultNpcsToMark(L["Emerald Sanctum"], "wyrmkin_pack_left_2", {
   ["0xF13000ED46273A20"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED46273A27"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED48273A19"] = CROSS, -- sanctum wrym
+    
   [errenius] = errenius_mark, -- increase chance of spotting him early
 })
 
@@ -1364,8 +1365,8 @@ addToDefaultNpcsToMark(L["Emerald Sanctum"], "wyrmkin_pack_right_3", {
   ["0xF13000ED462754A1"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED462754A2"] = UNMARKED, -- sanctum dreamer
   ["0xF13000EF1C275499"] = SKULL, -- sanctum supressor
-  ["0xF13000ED4727549C"] = STAR, -- sanctum dragonkin
-  ["0xF13000ED4A27549D"] = CROSS, -- sanctum scalebane
+  ["0xF13000ED4727549C"] = CROSS, -- sanctum dragonkin
+  ["0xF13000ED4A27549D"] = STAR, -- sanctum scalebane
   ["0xF13000ED4A27549B"] = SQUARE, -- sanctum scalebane
 })
 
@@ -1496,8 +1497,8 @@ addToDefaultNpcsToMark(L["Molten Core"], "golemag_shadowforge_pack", {
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "twin_golems", {
-  ["0xF13000FDFC278C2C"] = CROSS,
-  ["0xF13000FDFD278C2D"] = SKULL, -- this guy starts without the debuff
+  ["0xF13000FDFC278C2C"] = STAR,
+  ["0xF13000FDFD278C2D"] = SQUARE, -- this guy starts without the debuff
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_1", {
@@ -1721,19 +1722,19 @@ addToDefaultNpcsToMark(L["Ruins of Ahn'Qiraj"], "ossirian_room", {
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "bwl_razor", {
   ["0xF1300030930149A4"] = STAR, -- razorgore
-  ["0xF13000310D0149A5"] = SKULL, -- grethok
-  ["0xF1300038780149A7"] = CROSS,
-  ["0xF1300038780149A6"] = SQUARE,
+  ["0xF13000310D0149A5"] = SKULL, -- grethok the controller
+  ["0xF1300038780149A7"] = CROSS, -- blackwing guardsman
+  ["0xF1300038780149A6"] = SQUARE, -- blackwing guardsman
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "vael", {
-  ["0xF1300032DC014A20"] = STAR,
-  ["0xF1300036AC104CD6"] = CROSS,
-  ["0xF1300036AC104CD5"] = SQUARE,
-  ["0xF1300036AC104CD4"] = MOON,
-  ["0xF1300036AC104DD3"] = TRIANGLE,
-  ["0xF1300036AC104DD2"] = DIAMOND,
-  ["0xF1300036AC104DD1"] = CIRCLE,
+  ["0xF1300032DC014A20"] = STAR, -- technician
+  ["0xF1300036AC104CD6"] = CROSS, -- technician
+  ["0xF1300036AC104CD5"] = SQUARE, -- technician
+  ["0xF1300036AC104CD4"] = MOON, -- technician
+  ["0xF1300036AC104DD3"] = TRIANGLE, -- technician
+  ["0xF1300036AC104DD2"] = DIAMOND, -- technician
+  ["0xF1300036AC104DD1"] = CIRCLE -- technician
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wrym1", {
@@ -1794,127 +1795,127 @@ addToDefaultNpcsToMark(L["Blackwing Lair"], "supress2_2", {
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "lab1", {
-  ["0xF1300036AC11F796"] = UNMARKED,
-  ["0xF1300036AC014A3C"] = UNMARKED,
-  ["0xF1300036AC11F797"] = UNMARKED,
-  ["0xF1300036AC014A37"] = UNMARKED,
-  ["0xF1300036AC014A3B"] = UNMARKED,
-  ["0xF1300036AC014A38"] = UNMARKED,
-  ["0xF1300030AB014A3E"] = CROSS,
-  ["0xF1300030AB014A3D"] = SKULL,
+  ["0xF1300036AC11F796"] = UNMARKED, -- technician
+  ["0xF1300036AC014A3C"] = UNMARKED, -- technician
+  ["0xF1300036AC11F797"] = UNMARKED, -- technician
+  ["0xF1300036AC014A37"] = UNMARKED, -- technician
+  ["0xF1300036AC014A3B"] = UNMARKED, -- technician
+  ["0xF1300036AC014A38"] = UNMARKED, -- technician
+  ["0xF1300030AB014A3E"] = CROSS, -- blackwing spellbinder
+  ["0xF1300030AB014A3D"] = SKULL, -- blackwing spellbinder
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "lab2", {
-  ["0xF1300036AC11F79B"] = UNMARKED,
-  ["0xF1300030A9014A44"] = DIAMOND,
-  ["0xF1300036AC014A4A"] = UNMARKED,
-  ["0xF1300036AC11F79A"] = UNMARKED,
-  ["0xF1300036AC014A47"] = UNMARKED,
-  ["0xF1300036AC014A46"] = UNMARKED,
-  ["0xF1300030AB014A42"] = SKULL,
-  ["0xF1300030AB014A49"] = CROSS,
-  ["0xF1300036AC014A48"] = UNMARKED,
-  ["0xF1300036AC014A4B"] = UNMARKED,
-  ["0xF1300030AD014A4D"] = CIRCLE,
+  ["0xF1300036AC11F79B"] = UNMARKED, -- technician
+  ["0xF1300030A9014A44"] = DIAMOND, -- blackwing warlock
+  ["0xF1300036AC014A4A"] = UNMARKED, -- technician
+  ["0xF1300036AC11F79A"] = UNMARKED, -- technician
+  ["0xF1300036AC014A47"] = UNMARKED, -- technician
+  ["0xF1300036AC014A46"] = UNMARKED, -- technician
+  ["0xF1300030AB014A42"] = SKULL, -- blackwing spellbinder
+  ["0xF1300030AB014A49"] = CROSS, -- blackwing spellbinder
+  ["0xF1300036AC014A48"] = UNMARKED, -- technician
+  ["0xF1300036AC014A4B"] = UNMARKED, -- technician
+  ["0xF1300030AD014A4D"] = CIRCLE, -- death talon overseer
   ["0xF130002ECF014A5C"] = TRIANGLE, -- firemaw
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "lab3", {
-  ["0xF1300036AC014A53"] = UNMARKED,
-  ["0xF1300030A911F78B"] = DIAMOND,
-  ["0xF1300036AC014A55"] = UNMARKED,
-  ["0xF1300036AC014A5A"] = UNMARKED,
-  ["0xF1300030AB014A51"] = CROSS,
-  ["0xF1300036AC11F79D"] = UNMARKED,
-  ["0xF1300030AD014A4E"] = CIRCLE,
-  ["0xF1300030AB014A50"] = SKULL,
-  ["0xF1300036AC014A56"] = UNMARKED,
-  ["0xF1300036AC014A54"] = UNMARKED,
-  ["0xF1300036AC014A58"] = UNMARKED,
+  ["0xF1300036AC014A53"] = UNMARKED, -- technician
+  ["0xF1300030A911F78B"] = DIAMOND, -- blackwing warlock
+  ["0xF1300036AC014A55"] = UNMARKED, -- technician
+  ["0xF1300036AC014A5A"] = UNMARKED, -- technician
+  ["0xF1300030AB014A51"] = CROSS, -- blackwing spellbinder
+  ["0xF1300036AC11F79D"] = UNMARKED, -- technician
+  ["0xF1300030AD014A4E"] = CIRCLE, -- death talon overseer
+  ["0xF1300030AB014A50"] = SKULL, -- blackwing spellbinder
+  ["0xF1300036AC014A56"] = UNMARKED, -- technician
+  ["0xF1300036AC014A54"] = UNMARKED, -- technician
+  ["0xF1300036AC014A58"] = UNMARKED, -- technician
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrmguard1", {
-  ["0xF1300030AD014A6D"] = DIAMOND,
-  ["0xF1300030AC014A70"] = CIRCLE,
-  ["0xF1300030AD014A6E"] = SQUARE,
-  ["0xF1300030AD014A6F"] = TRIANGLE,
+  ["0xF1300030AD014A6D"] = DIAMOND, -- death talon wyrmguard
+  ["0xF1300030AC014A70"] = CIRCLE, -- death talon overseer
+  ["0xF1300030AD014A6E"] = SQUARE, -- death talon overseer
+  ["0xF1300030AD014A6F"] = TRIANGLE, -- death talon overseer
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "lab4", {
-  ["0xF1300030A911F78C"] = DIAMOND,
-  ["0xF1300036AC014A7D"] = UNMARKED,
-  ["0xF1300036AC014A87"] = UNMARKED,
-  ["0xF1300030AB014A77"] = CROSS,
-  ["0xF1300030AB014A76"] = SKULL,
-  ["0xF1300036AC014A8B"] = UNMARKED,
-  ["0xF1300030AD014A91"] = CIRCLE,
-  ["0xF1300036AC014A7E"] = UNMARKED,
-  ["0xF1300036AC11F799"] = UNMARKED,
-  ["0xF1300036AC014A86"] = UNMARKED,
-  ["0xF1300036AC11F798"] = UNMARKED,
+  ["0xF1300030A911F78C"] = DIAMOND, -- blackwing warlock
+  ["0xF1300036AC014A7D"] = UNMARKED, -- technician
+  ["0xF1300036AC014A87"] = UNMARKED, -- technician
+  ["0xF1300030AB014A77"] = CROSS, -- blackwing spellbinder
+  ["0xF1300030AB014A76"] = SKULL, -- blackwing spellbinder
+  ["0xF1300036AC014A8B"] = UNMARKED, -- technician
+  ["0xF1300030AD014A91"] = CIRCLE, -- death talon overseer
+  ["0xF1300036AC014A7E"] = UNMARKED, -- technician
+  ["0xF1300036AC11F799"] = UNMARKED, -- technician
+  ["0xF1300036AC014A86"] = UNMARKED, -- technician
+  ["0xF1300036AC11F798"] = UNMARKED, -- technician
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "lab5", {
-  ["0xF1300036AC014B1A"] = UNMARKED,
-  ["0xF1300036AC014AAE"] = UNMARKED,
-  ["0xF1300030AB014AAD"] = SKULL,
-  ["0xF1300036AC014AD1"] = UNMARKED,
-  ["0xF1300030AD014B68"] = CIRCLE,
-  ["0xF1300036AC014AD0"] = UNMARKED,
-  ["0xF1300036AC014AD3"] = UNMARKED,
-  ["0xF1300030A911F78D"] = DIAMOND,
-  ["0xF1300036AC11F791"] = UNMARKED,
-  ["0xF1300036AC014B1B"] = UNMARKED,
-  ["0xF1300036AC014B19"] = UNMARKED,
-  ["0xF1300030AB014AAC"] = CROSS,
+  ["0xF1300036AC014B1A"] = UNMARKED, -- technician
+  ["0xF1300036AC014AAE"] = UNMARKED, -- technician
+  ["0xF1300030AB014AAD"] = SKULL, -- blackwing spellbinder
+  ["0xF1300036AC014AD1"] = UNMARKED, -- technician
+  ["0xF1300030AD014B68"] = CIRCLE, -- death talon overseer
+  ["0xF1300036AC014AD0"] = UNMARKED, -- technician
+  ["0xF1300036AC014AD3"] = UNMARKED, -- technician
+  ["0xF1300030A911F78D"] = DIAMOND, -- blackwing warlock
+  ["0xF1300036AC11F791"] = UNMARKED, -- technician
+  ["0xF1300036AC014B1B"] = UNMARKED, -- technician
+  ["0xF1300036AC014B19"] = UNMARKED, -- technician
+  ["0xF1300030AB014AAC"] = CROSS, -- blackwing spellbinder
 })
 
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "lab6", {
-  ["0xF1300030A9014EFE"] = DIAMOND,
-  ["0xF1300036AC11F794"] = UNMARKED,
-  ["0xF1300036AC014F07"] = UNMARKED,
-  ["0xF1300036AC014F06"] = UNMARKED,
-  ["0xF1300036AC014F00"] = UNMARKED,
-  ["0xF1300036AC014F0C"] = UNMARKED,
-  ["0xF1300036AC014F0D"] = UNMARKED,
-  ["0xF1300036AC014F04"] = UNMARKED,
-  ["0xF1300030A9014F08"] = STAR,
-  ["0xF1300030AD11F78F"] = CIRCLE,
-  ["0xF1300036AC11F795"] = UNMARKED,
-  ["0xF1300030AB014EFD"] = SKULL,
-  ["0xF1300030AB014F0F"] = CROSS,
+  ["0xF1300030A9014EFE"] = DIAMOND, -- blackwing warlock
+  ["0xF1300036AC11F794"] = UNMARKED, -- technician
+  ["0xF1300036AC014F07"] = UNMARKED, -- technician
+  ["0xF1300036AC014F06"] = UNMARKED, -- technician
+  ["0xF1300036AC014F00"] = UNMARKED, -- technician
+  ["0xF1300036AC014F0C"] = UNMARKED, -- technician
+  ["0xF1300036AC014F0D"] = UNMARKED, -- technician
+  ["0xF1300036AC014F04"] = UNMARKED, -- technician
+  ["0xF1300030A9014F08"] = STAR, -- blackwing warlock
+  ["0xF1300030AD11F78F"] = CIRCLE, -- death talon overseer
+  ["0xF1300036AC11F795"] = UNMARKED, -- technician
+  ["0xF1300030AB014EFD"] = SKULL, -- blackwing spellbinder
+  ["0xF1300030AB014F0F"] = CROSS, -- blackwing spellbinder
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "lab7", {
-  ["0xF1300036AC014E77"] = UNMARKED,
-  ["0xF1300030AB014E61"] = CROSS,
-  ["0xF1300030A9014E6D"] = STAR,
-  ["0xF1300036AC11F792"] = UNMARKED,
-  ["0xF1300030A9014E75"] = DIAMOND,
-  ["0xF1300036AC014E79"] = UNMARKED,
-  ["0xF1300036AC014E69"] = UNMARKED,
-  ["0xF1300036AC014E74"] = UNMARKED,
-  ["0xF1300036AC014E6C"] = UNMARKED,
-  ["0xF1300036AC014E6B"] = UNMARKED,
-  ["0xF1300036AC014E70"] = UNMARKED,
-  ["0xF1300030AB014E4D"] = SKULL,
-  ["0xF1300030AD11F78E"] = CIRCLE,
+  ["0xF1300036AC014E77"] = UNMARKED, -- technician
+  ["0xF1300030AB014E61"] = CROSS, -- blackwing spellbinder
+  ["0xF1300030A9014E6D"] = STAR, -- blackwing warlock
+  ["0xF1300036AC11F792"] = UNMARKED, -- technician
+  ["0xF1300030A9014E75"] = DIAMOND, -- blackwing warlock
+  ["0xF1300036AC014E79"] = UNMARKED, -- technician
+  ["0xF1300036AC014E69"] = UNMARKED, -- technician
+  ["0xF1300036AC014E74"] = UNMARKED, -- technician
+  ["0xF1300036AC014E6C"] = UNMARKED, -- technician
+  ["0xF1300036AC014E6B"] = UNMARKED, -- technician
+  ["0xF1300036AC014E70"] = UNMARKED, -- technician
+  ["0xF1300030AB014E4D"] = SKULL, -- blackwing spellbinder
+  ["0xF1300030AD11F78E"] = CIRCLE, -- death talon overseer
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrmguard2", {
-  ["0xF1300030AC014A9B"] = DIAMOND,
-  ["0xF1300030AC014A9A"] = TRIANGLE,
-  ["0xF1300030AC014A94"] = SQUARE,
-  ["0xF130003841014A93"] = SKULL,
+  ["0xF1300030AC014A9B"] = DIAMOND, -- death talon wyrmguard
+  ["0xF1300030AC014A9A"] = TRIANGLE, -- death talon wyrmguard
+  ["0xF1300030AC014A94"] = SQUARE, -- death talon wyrmguard
+  ["0xF130003841014A93"] = SKULL, -- master elemental shaper krixix
   ["0xF130002ECD014F17"] = CIRCLE, -- flamegor
   ["0xF130003909014F14"] = STAR, -- ebonroc
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrmguard3", {
-  ["0xF1300030AC014A9F"] = DIAMOND,
-  ["0xF1300030AC014AAA"] = TRIANGLE,
-  ["0xF1300030AC014AA8"] = SQUARE,
+  ["0xF1300030AC014A9F"] = DIAMOND, -- death talon wyrmguard
+  ["0xF1300030AC014AAA"] = SQUARE, -- death talon wyrmguard
+  ["0xF1300030AC014AA8"] = TRIANGLE, -- death talon wyrmguard
   ["0xF1300036C4014F18"] = CIRCLE, -- chromag
 })
 
@@ -2659,6 +2660,7 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
 
