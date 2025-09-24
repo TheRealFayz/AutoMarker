@@ -1448,13 +1448,13 @@ addToDefaultNpcsToMark(L["Molten Core"], "garr", {
 
 addToDefaultNpcsToMark(L["Molten Core"], "baron_pack_1", {
   ["0xF130002D93016498"] = CROSS,
-  ["0xF130002F2C016497"] = TRIANGLE,
+  ["0xF130002F2C016497"] = SQUARE,
   ["0xF130002D92016496"] = SKULL,
   ["0xF130002F2C016499"] = DIAMOND,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "baron_pack_2", {
-  ["0xF130002F2C016480"] = TRIANGLE,
+  ["0xF130002F2C016480"] = SQUARE,
   ["0xF130002F2C01647E"] = DIAMOND,
   ["0xF130002D9301647F"] = CROSS,
   ["0xF130002D9201647D"] = SKULL,
@@ -1475,7 +1475,7 @@ addToDefaultNpcsToMark(L["Molten Core"], "baron_pack_4", {
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "baron_pack_5", {
-  ["0xF130002F2C00DDD9"] = TRIANGLE,
+  ["0xF130002F2C00DDD9"] = SQUARE,
   ["0xF130002D9300DDDA"] = CROSS,
   ["0xF130002D9200DDD8"] = SKULL,
   ["0xF130002F2C00DDDB"] = DIAMOND,
@@ -1491,19 +1491,19 @@ addToDefaultNpcsToMark(L["Molten Core"], "sulfuron", {
 
 addToDefaultNpcsToMark(L["Molten Core"], "golemag_shadowforge_pack", {
   ["0xF130002D9300DDC7"] = SKULL,
-  ["0xF130002F2C00DDAF"] = DIAMOND,
+  ["0xF130002F2C00DDAF"] = TRIANGLE,
   ["0xF130002F2C00DDC8"] = CIRCLE,
   ["0xF130002D9200DDAE"] = CROSS,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "twin_golems", {
-  ["0xF13000FDFC278C2C"] = STAR,
-  ["0xF13000FDFD278C2D"] = SQUARE, -- this guy starts without the debuff
+  ["0xF13000FDFC278C2C"] = CROSS,
+  ["0xF13000FDFD278C2D"] = SKULL, -- this guy starts without the debuff
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_1", {
-  ["0xF13000CBB7278CD2"] = DIAMOND, -- pat
-  ["0xF13000CBB6278CD3"] = SQUARE,
+  ["0xF13000CBB7278CD2"] = CIRCLE, -- pat
+  ["0xF13000CBB6278CD3"] = TRIANGLE,
   ["0xF13000CBB8278CD4"] = CROSS,
   ["0xF13000CBB8278CD5"] = SKULL,
 })
@@ -1516,7 +1516,7 @@ addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_2", {
 addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_3", {
   ["0xF13000CBB8278CDA"] = CROSS,
   ["0xF13000CBB8278CDB"] = SKULL,
-  ["0xF13000CBB8278CDC"] = SQUARE,
+  ["0xF13000CBB8278CDC"] = TRIANGLE,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_4", {
@@ -1526,16 +1526,16 @@ addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_4", {
 
 addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_5", {
   ["0xF13000CBB8278CC4"] = SKULL,
-  ["0xF13000CBB6278CC1"] = SQUARE,
+  ["0xF13000CBB6278CC1"] = TRIANGLE,
   ["0xF13000CBB8278CC3"] = CROSS,
-  ["0xF13000CBB6278CC2"] = MOON,
+  ["0xF13000CBB6278CC2"] = CIRCLE,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_right_1", {
-  ["0xF13000CBB6278CB8"] = SQUARE,
+  ["0xF13000CBB6278CB8"] = TRIANGLE,
   ["0xF13000CBB8278CB7"] = SKULL, -- blazeweaver
   ["0xF13000CBB6278CB9"] = CROSS,
-  ["0xF13000CBB6278CB3"] = DIAMOND, -- pat
+  ["0xF13000CBB6278CB3"] = CIRCLE, -- pat
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_right_2", {
@@ -1545,7 +1545,7 @@ addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_right_2", {
 
 addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_right_3", {
   ["0xF13000CBB7278CE3"] = SKULL,
-  ["0xF13000CBB7278CE2"] = SQUARE,
+  ["0xF13000CBB7278CE2"] = TRIANGLE,
   ["0xF13000CBB7278CE1"] = CROSS,
 })
 
@@ -1555,21 +1555,21 @@ addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_right_4", {
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_right_5", {
-  ["0xF13000CBB6278CC0"] = MOON,
-  ["0xF13000CBB6278CBF"] = SQUARE,
+  ["0xF13000CBB6278CC0"] = CIRCLE,
+  ["0xF13000CBB6278CBF"] = TRIANGLE,
   ["0xF13000CBB7278CBD"] = CROSS,
   ["0xF13000CBB7278CBE"] = SKULL,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "domo", {
-  ["0xF130002D90278D51"] = DIAMOND, -- elite
-  ["0xF130002D90278D52"] = STAR, -- elite
-  ["0xF130002D90278D53"] = CIRCLE, -- elite
-  ["0xF130002D90278D54"] = TRIANGLE, -- elite
-  ["0xF130002D8F278D55"] = SKULL, -- healer
-  ["0xF130002D8F278D56"] = SQUARE, -- healer
-  ["0xF130002D8F278D57"] = MOON, -- healer
-  ["0xF130002D8F278D58"] = CROSS, -- healer
+  ["0xF130002D90278D51"] = TRIANGLE, -- elite
+  ["0xF130002D90278D52"] = SKULL, -- elite
+  ["0xF130002D90278D53"] = SQUARE, -- elite
+  ["0xF130002D90278D54"] = CROSS, -- elite
+  ["0xF130002D8F278D55"] = DIAMOND, -- healer
+  ["0xF130002D8F278D56"] = MOON, -- healer
+  ["0xF130002D8F278D57"] = CIRCLE, -- healer
+  ["0xF130002D8F278D58"] = STAR, -- healer
   ["0xF130002EF2278D50"] = UNMARKED, -- domo
 })
 
@@ -2660,6 +2660,7 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
 
