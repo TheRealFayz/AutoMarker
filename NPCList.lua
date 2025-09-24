@@ -1464,13 +1464,13 @@ addToDefaultNpcsToMark(L["Molten Core"], "baron_pack_2", {
 addToDefaultNpcsToMark(L["Molten Core"], "baron_pack_3", {
   ["0xF130002D9301649C"] = CROSS,
   ["0xF130002D9201649A"] = SKULL,
-  ["0xF130002F4401649B"] = TRIANGLE,
+  ["0xF130002F4401649B"] = DIAMOND,
   ["0xF130002FE800DD20"] = STAR, -- shazzrah
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "baron_pack_4", {
   ["0xF130002D9200DD92"] = SKULL,
-  ["0xF130002F4400DD93"] = TRIANGLE,
+  ["0xF130002F4400DD93"] = DIAMOND,
   ["0xF130002D9300DD94"] = CROSS,
 })
 
@@ -2660,6 +2660,7 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
 
