@@ -1377,8 +1377,8 @@ addToDefaultNpcsToMark(L["Emerald Sanctum"], "solnius", {
 --/////////////// MC ///////////////
 
 addToDefaultNpcsToMark(L["Molten Core"], "giants1", {
-  ["0xF130002D8A00DD81"] = CROSS,
-  ["0xF130002D8A00DD80"] = SKULL,
+  ["0xF130002D8A00DD81"] = SKULL,
+  ["0xF130002D8A00DD80"] = CROSS,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "pats1", {
@@ -1835,8 +1835,8 @@ addToDefaultNpcsToMark(L["Blackwing Lair"], "lab3", {
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrmguard1", {
-  ["0xF1300030AD014A6D"] = DIAMOND, -- death talon wyrmguard
-  ["0xF1300030AC014A70"] = CIRCLE, -- death talon overseer
+  ["0xF1300030AD014A6D"] = CIRCLE, -- death talon wyrmguard
+  ["0xF1300030AC014A70"] = DIAMOND, -- death talon overseer
   ["0xF1300030AD014A6E"] = SQUARE, -- death talon overseer
   ["0xF1300030AD014A6F"] = TRIANGLE, -- death talon overseer
 })
@@ -1905,8 +1905,8 @@ addToDefaultNpcsToMark(L["Blackwing Lair"], "lab7", {
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrmguard2", {
   ["0xF1300030AC014A9B"] = DIAMOND, -- death talon wyrmguard
-  ["0xF1300030AC014A9A"] = TRIANGLE, -- death talon wyrmguard
-  ["0xF1300030AC014A94"] = SQUARE, -- death talon wyrmguard
+  ["0xF1300030AC014A9A"] = SQUARE, -- death talon wyrmguard
+  ["0xF1300030AC014A94"] = TRIANGLE, -- death talon wyrmguard
   ["0xF130003841014A93"] = SKULL, -- master elemental shaper krixix
   ["0xF130002ECD014F17"] = CIRCLE, -- flamegor
   ["0xF130003909014F14"] = STAR, -- ebonroc
@@ -1914,8 +1914,8 @@ addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrmguard2", {
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrmguard3", {
   ["0xF1300030AC014A9F"] = DIAMOND, -- death talon wyrmguard
-  ["0xF1300030AC014AAA"] = SQUARE, -- death talon wyrmguard
-  ["0xF1300030AC014AA8"] = TRIANGLE, -- death talon wyrmguard
+  ["0xF1300030AC014AAA"] = TRIANGLE, -- death talon wyrmguard
+  ["0xF1300030AC014AA8"] = SQUARE, -- death talon wyrmguard
   ["0xF1300036C4014F18"] = CIRCLE, -- chromag
 })
 
@@ -2660,6 +2660,7 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
 
