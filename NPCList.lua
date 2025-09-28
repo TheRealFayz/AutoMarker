@@ -1738,23 +1738,23 @@ addToDefaultNpcsToMark(L["Blackwing Lair"], "vael", {
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wrym1", {
-  ["0xF1300030B1014A2E"] = SQUARE,
-  ["0xF1300030B1014A2D"] = MOON,
-  ["0xF1300030B3014A27"] = STAR,
-  ["0xF1300030B0014A2C"] = SKULL,
-  ["0xF1300030B0014A2B"] = CROSS,
-  ["0xF1300030AF014A33"] = DIAMOND,
-  ["0xF1300030AF014A34"] = CIRCLE,
+  ["0xF1300030B1014A2E"] = SQUARE, -- death talon wyrmkin
+  ["0xF1300030B1014A2D"] = MOON, -- death talon wyrmkin
+  ["0xF1300030B3014A27"] = STAR, -- death talon captian
+  ["0xF1300030B0014A2C"] = SKULL, -- death talon seether
+  ["0xF1300030B0014A2B"] = CROSS, -- death talon seether
+  ["0xF1300030AF014A33"] = DIAMOND, -- death talon flamescale
+  ["0xF1300030AF014A34"] = CIRCLE, -- death talon flamescale
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wrym2", {
-  ["0xF1300030B1014A30"] = MOON,
-  ["0xF1300030B1014A2F"] = SQUARE,
-  ["0xF1300030B3014A28"] = STAR,
-  ["0xF1300030B0014A29"] = SKULL,
-  ["0xF1300030B0014A2A"] = CROSS,
-  ["0xF1300030AF014A31"] = DIAMOND,
-  ["0xF1300030AF014A32"] = CIRCLE,
+  ["0xF1300030B1014A2F"] = SQUARE, -- death talon wyrmkin
+  ["0xF1300030B1014A30"] = MOON, -- death talon wyrmkin
+  ["0xF1300030B3014A28"] = STAR, -- death talon captian
+  ["0xF1300030B0014A29"] = SKULL, -- death talon seether
+  ["0xF1300030B0014A2A"] = CROSS, -- death talon seether
+  ["0xF1300030AF014A31"] = DIAMOND, -- death talon flamescale
+  ["0xF1300030AF014A32"] = CIRCLE, -- death talon flamescale
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "supress1", {
@@ -1913,8 +1913,8 @@ addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrmguard2", {
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrmguard3", {
-  ["0xF1300030AC014A9F"] = DIAMOND, -- death talon wyrmguard
-  ["0xF1300030AC014AAA"] = TRIANGLE, -- death talon wyrmguard
+  ["0xF1300030AC014A9F"] = TRIANGLE, -- death talon wyrmguard
+  ["0xF1300030AC014AAA"] = DIAMOND, -- death talon wyrmguard
   ["0xF1300030AC014AA8"] = SQUARE, -- death talon wyrmguard
   ["0xF1300036C4014F18"] = CIRCLE, -- chromag
 })
@@ -2660,6 +2660,7 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
 
