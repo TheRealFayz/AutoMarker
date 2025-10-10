@@ -814,7 +814,7 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "lashers", {
   ["0xF130003B910157C8"]  = SKULL, -- Qiraji Lasher
   ["0xF130003B910157C3"]  = CROSS, -- Qiraji Lasher
   ["0xF130003B910157C2"]  = CIRCLE, -- Qiraji Lasher
-  ["0xF130003B910157BC"]  = SQUARE -- Qiraji Lasher
+  ["0xF130003B910157BC"]  = SQUARE, -- Qiraji Lasher
   ["0xF130003B910157BF"]  = TRIANGLE, -- Qiraji Lasher
   ["0xF130003B830157CD"]  = UNMARKED, -- Vekniss Stinger
   ["0xF130003B830157B6"]  = UNMARKED, -- Vekniss Stinger
@@ -2741,6 +2741,7 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
 
