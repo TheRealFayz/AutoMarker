@@ -1415,10 +1415,10 @@ addToDefaultNpcsToMark(L["Emerald Sanctum"], "wyrmkin_pack_left_3", {
   ["0xF13000ED46273A57"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED46273A58"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED46273A59"] = UNMARKED, -- sanctum dreamer
-  ["0xF13000ED4A273A48"] = CROSS, -- sanctum scalebane
-  ["0xF13000ED4A273A49"] = SKULL, -- sanctum scalebane
-  ["0xF13000ED49273A47"] = STAR, -- sanctum wyrmkin -- ??
-  ["0xF13000ED47273A1C"] = SQUARE, -- sanctum dragonkin
+  ["0xF13000ED4A273A48"] = STAR, -- sanctum scalebane
+  ["0xF13000ED4A273A49"] = SQUARE, -- sanctum scalebane
+  ["0xF13000ED49273A47"] = SKULL, -- sanctum wyrmkin -- ??
+  ["0xF13000ED47273A1C"] = CROSS, -- sanctum dragonkin
 
   [errenius] = errenius_mark, -- increase chance of spotting him early
 })
@@ -2741,6 +2741,7 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
 
