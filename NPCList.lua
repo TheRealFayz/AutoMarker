@@ -681,7 +681,7 @@ addToDefaultNpcsToMark(L["Naxxramas"], "construct_grobb_far", {
 
 defaultNpcsToMark[L["Ahn'Qiraj"]] = {}
 
-addToDefaultNpcsToMark(L["Ahn'Qiraj"], "entrance_1", {
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "entrance_patrols_1", {
   ["0xF130003B9E01580A"]  = SKULL, -- Obsidian Eradicator
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "entrance_1", {
@@ -697,7 +697,7 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "entrance_2", {
   ["0xF130003BA001560F"]  = CIRCLE, -- Anubisath Sentinel
   ["0xF130003BA001560E"]  = SQUARE, -- Anubisath Sentinel
 })
-addToDefaultNpcsToMark(L["Ahn'Qiraj"], "entrance_patrols", {
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "entrance_patrols_2", {
   ["0xF130003B9E130799"] = SKULL, -- Obsidian Eradicator
   ["0xF130003B9E01580A"] = CROSS, -- Obsidian Eradicator
   ["0xF130003B9E13079A"] = CIRCLE, -- Obsidian Eradicator
@@ -2745,6 +2745,7 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
 
