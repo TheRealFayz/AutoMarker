@@ -683,7 +683,8 @@ defaultNpcsToMark[L["Ahn'Qiraj"]] = {}
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "entrance_patrols_1", {
   ["0xF130003B9E01580A"]  = SKULL, -- Obsidian Eradicator
-
+})
+    
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "entrance_1", {
   ["0xF130003BA0015613"]  = SKULL, -- Anubisath Sentinel
   ["0xF130003BA0015612"]  = CROSS, -- Anubisath Sentinel
@@ -2745,6 +2746,7 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
 
