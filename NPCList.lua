@@ -703,7 +703,7 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "entrance_patrols", {
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "skeram", {
   ["0xF130003B9F04A659"]  = SKULL, -- Clone
   ["0xF130003B9F04A65A"]  = CROSS, -- Clone
-  ["0xF130003B9F01580B"]  = CIRCLE, -- Skeram
+  ["0xF130003B9F01580B"]  = SQUARE, -- Skeram
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "brainwasher_1", {
@@ -754,6 +754,7 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_1", {
   ["0xF130003B81015645"]  = SQUARE, -- Vekniss Guardian
   ["0xF130003B81015643"]  = TRIANGLE, -- Vekniss Guardian
   ["0xF130003B81015641"]  = STAR, -- Vekniss Guardian
+  ["0xF130003B7E049CA2"]  = DIAMOND, -- Vekniss Warrior
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_2", {
@@ -763,6 +764,7 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_2", {
   ["0xF130003B81015647"]  = SQUARE, -- Vekniss Guardian
   ["0xF130003B8101564A"]  = TRIANGLE, -- Vekniss Guardian
   ["0xF130003B81015646"]  = STAR, -- Vekniss Guardian
+  ["0xF130003B7E049CA2"]  = DIAMOND, -- Vekniss Warrior
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_3", {
@@ -772,6 +774,7 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_3", {
   ["0xF130003B81015650"]  = SQUARE, -- Vekniss Guardian
   ["0xF130003B8101564D"]  = TRIANGLE, -- Vekniss Guardian
   ["0xF130003B81015651"]  = STAR, -- Vekniss Guardian
+  ["0xF130003B7E049CA2"]  = DIAMOND, -- Vekniss Warrior
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_4", {
@@ -781,13 +784,14 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_4", {
   ["0xF130003B8101565A"]  = SQUARE, -- Vekniss Guardian
   ["0xF130003B81015658"]  = TRIANGLE, -- Vekniss Guardian
   ["0xF130003B8101565C"]  = STAR, -- Vekniss Guardian
+  ["0xF130003B7E049CA2"]  = DIAMOND, -- Vekniss Warrior
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "sartura", {
-  ["0xF130003C9C015660"]  = SKULL, -- Battleguard Sartura
-  ["0xF130003E70015662"]  = CROSS, -- Sartura's Royal Guard
-  ["0xF130003E70015661"]  = CIRCLE, -- Sartura's Royal Guard
-  ["0xF130003E70015663"]  = SQUARE, -- Sartura's Royal Guard
+  ["0xF130003E70015662"]  = SKULL, -- Sartura's Royal Guard
+  ["0xF130003E70015661"]  = CROSS, -- Sartura's Royal Guard
+  ["0xF130003E70015663"]  = CIRCLE, -- Sartura's Royal Guard
+  ["0xF130003C9C015660"]  = SQUARE, -- Battleguard Sartura
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "soldiers", {
@@ -803,11 +807,8 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "scorpions", {
   ["0xF130003B88015799"]  = CROSS, -- Vekniss Hive Crawler
   ["0xF130003B881307A3"]  = CIRCLE, -- Vekniss Hive Crawler
   ["0xF130003B881307A4"]  = SQUARE, -- Vekniss Hive Crawler
-})
-
-addToDefaultNpcsToMark(L["Ahn'Qiraj"], "scorpions2", {
-  ["0xF130003B8801578E"]  = SKULL, -- Vekniss Hive Crawler
-  ["0xF130003B8801578F"]  = CROSS, -- Vekniss Hive Crawler
+  ["0xF130003B8801578E"]  = TRIANGLE, -- Vekniss Hive Crawler
+  ["0xF130003B8801578F"]  = STAR, -- Vekniss Hive Crawler
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "lashers", {
@@ -2741,6 +2742,7 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
 
